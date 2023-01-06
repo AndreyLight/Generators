@@ -1,0 +1,268 @@
+.page-background {
+  width: 1920px 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.page {
+  width: 1460px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_img {
+  box-sizing: content-box;
+}
+
+.btn {
+  border: solid 1px #e4b564;
+  background-color: black;
+  }
+
+  .feedback-btn{
+    padding: 10px 25px;
+  }
+
+.feedback-icon-text {
+  color: #e4b564;
+  font-family: Circe;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.feedback-icon-text img {
+  padding-right: 10px;
+}
+
+.main-title {
+  font-family: Gilam;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.heat-network-text {
+  padding-top: 41px;
+  font-family: Gilam;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.heat-grid_container {
+  margin-top: 41px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+}
+
+.heat-grid-item {
+  color: rgb(255, 255, 255);
+  height: 468px;
+  font-family: Gilam;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.heat-grid-item-1 {
+  background-color: #634f2c;
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 2;
+  grid-column-end: 3;
+}
+
+.heat-grid-item-2 {
+  background-color: #b4a385;
+
+  grid-row-start: 1;
+  grid-column-start: 3;
+
+  grid-row-end: 2;
+  grid-column-end: 5;
+}
+
+.heat-grid-item-3 {
+  background-color: #e4b564;
+
+  grid-row-start: 1;
+  grid-column-start: 5;
+
+  grid-row-end: 2;
+  grid-column-end: 7;
+}
+
+.heat-grid-item-4 {
+  background-color: #635a4a;
+
+  grid-row-start: 2;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 4;
+}
+
+.heat-grid-item-5 {
+  background-color: #b08c4d;
+
+  grid-row-start: 2;
+  grid-column-start: 4;
+
+  grid-row-end: 3;
+  grid-column-end: 7;
+}
+
+.technic-park {
+  padding-top: 160px;
+}
+
+.technic-grid_container {
+  width: 1460px;
+  padding-top: 94px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+.technic-text{
+  padding-left: 52px;
+  padding-top: 44px;
+}
+
+.technic-grid-item {
+  color: rgb(255, 255, 255);
+  width: 467px;
+
+  font-family: Gilam;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Kamaz {
+  padding-left: 52px;
+  font-weight: 700;
+}
+
+.technic-grid-item-1 {
+  height: 313px;
+  background-color: #0e0e0e;
+  margin-bottom: 24px;
+}
+
+.technic-grid-item-2 {
+  height: 439px;
+  background-color: #242424;
+  margin-bottom: 33px;
+}
+
+.technic-grid-item-3 {
+  height: 255px;
+  background-color: #1f1f1f;
+  margin-bottom: 26px;
+}
+
+.technic-grid-item-4 {
+  background-color: #1f1f1f;
+  height: 560px;
+}
+
+.technic-grid-item-5 {
+  height: 405px;
+  background-color: #e4b564;
+}
+
+.technic-grid-item-6 {
+  height: 313px;
+  background-color: #0e0e0e;
+  margin-bottom: 26px;
+}
+
+.technic-grid-item-7 {
+  height: 277px;
+  background-color: #0a0909;
+}
+
+.clients-and-projects {
+  margin-top: 190px;
+  background-color: #0e0e0e;
+}
+
+.container-clients{
+  padding-top: 160px;
+  }
+
+.clients-grid_container {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 391px);
+  gap: 0;
+}
+
+.clients-grid-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.clients-grid-item-1 {
+  background-color: #634f2c;
+}
+
+.clients-grid-item-2 {
+  background-color: #e8d2ab;
+  flex-direction: column;
+}
+
+.clients-grid-item-3 {
+  background-color: #e4b564;
+}
+
+.clients-grid-item-4 {
+  background-color: #635a4a;
+}
+
+.clients-grid-item-5 {
+  background-color: #b08c4d;
+}
+
+.clients-grid-item-6 {
+  background-color: #634f2c;
+}
+
+.Mavis-text {
+  color: #ffffff;
+  padding-top: 16px;
+  font-family: Gilam;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.clients-bold-text{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.projects-btn{
+  padding: 10px 40px;
+}
